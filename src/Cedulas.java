@@ -27,16 +27,15 @@ public class Cedulas {
            cont5 = (int)(((((numero % 100) % 50) % 20) % 10) / 5);
            cont2 = (int)((((((numero % 100) % 50) % 20) % 10) % 5) / 2);
            cont1 = (int)((((((numero % 100) % 50) % 20) % 10) % 5) % 2);
-       }
-        
-        System.out.println(cont100 +" nota(s) de R$ 100,00");
-        System.out.println(cont50 +" nota(s) de R$ 50,00");
-        System.out.println(cont20 + " nota(s) de R$ 20,00");
-        System.out.println(cont10 +" nota(s) de R$ 10,00");
-        System.out.println(cont5 + " nota(s) de R$ 5,00");
-        System.out.println(cont2 +" nota(s) de R$ 2,00");
-        System.out.println(cont1 +" nota(s) de R$ 1,00");
-        
+           
+           System.out.println(cont100 +" nota(s) de R$ 100,00");
+           System.out.println(cont50 +" nota(s) de R$ 50,00");
+           System.out.println(cont20 + " nota(s) de R$ 20,00");
+           System.out.println(cont10 +" nota(s) de R$ 10,00");
+           System.out.println(cont5 + " nota(s) de R$ 5,00");
+           System.out.println(cont2 +" nota(s) de R$ 2,00");
+           System.out.println(cont1 +" nota(s) de R$ 1,00");
+       }    
     }
     
 }
